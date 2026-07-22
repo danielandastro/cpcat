@@ -19,7 +19,7 @@ let mut verbose = false;
     }
 
     if file_path.is_empty() {
-        eprintln!("Usage: ccat [-v] <file_path>");
+        eprintln!("Usage: cpcat [-v] <file_path>");
         process::exit(1);
     }
 
