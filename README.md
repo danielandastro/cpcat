@@ -13,6 +13,8 @@ cpcat (or copycat) is a lightweight unix utility written in Rust that copies the
 By default, `cpcat` succeeds silently.
 ## Install from AUR
 `yay -S cpcat`
+## Install with homebrew
+`brew install danielandastro/tools/cpcat`
 ## Manual Installation
 
 1. Compile the optimized release binary (recommended) OR download a binary from the releases page
