@@ -1,0 +1,12 @@
+[package]
+name = "ccat"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+arboard = "3.6.1"
+
+[[bin]]
+edition = "2024"
+name = "ccat"
+path = "src/main.rs"
