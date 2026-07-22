@@ -2,7 +2,8 @@ use arboard::Clipboard;
 use std::env;
 use std::fs;
 use std::process;
-
+use std::thread;
+use std::time::Duration;
 fn main() {
     // 1. Get the file path from command line arguments
     let args: Vec<String> = env::args().collect();
@@ -27,4 +28,5 @@ fn main() {
     clipboard.set_text(content).unwrap();
     
     println!("Successfully copied contents of {} to clipboard.", file_path);
+    thread::sleep(Duration::from_millis(100));
 }
