@@ -1,6 +1,6 @@
 # ccat
 
-ccat (or copycat) is a lightweight Linux utility written in Rust that copies the contents of a file directly to your clipboard. 
+ccat (or copycat) is a lightweight unix utility written in Rust that copies the contents of a file directly to your clipboard. 
 
 # Usage
 <b> Default: </b>
