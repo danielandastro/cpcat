@@ -10,7 +10,7 @@ cpcat (or copycat) is a lightweight unix utility written in Rust that copies the
 <b> Verbose: </b>
 `cpcat` -v file.txt
 
-By default, `ccat` succeeds silently.
+By default, `cpcat` succeeds silently.
 
 ## Installation
 
